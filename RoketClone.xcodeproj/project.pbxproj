@@ -15,6 +15,11 @@
 		C035A8DC1E7C00D6008E3CC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C035A8DB1E7C00D6008E3CC8 /* GoogleService-Info.plist */; };
 		C035A8DE1E7C0C90008E3CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035A8DD1E7C0C90008E3CC8 /* LoginViewController.swift */; };
 		C035A8E01E7C0CD9008E3CC8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035A8DF1E7C0CD9008E3CC8 /* RegisterViewController.swift */; };
+		C035A8E21E7C106B008E3CC8 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C035A8E11E7C106B008E3CC8 /* MainPage.storyboard */; };
+		C0AB532C1E7C260400E2F5EC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB532B1E7C260400E2F5EC /* HomePageViewController.swift */; };
+		C0AB53301E7C313A00E2F5EC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB532F1E7C313A00E2F5EC /* ProfileViewController.swift */; };
+		C0AB53321E7C332800E2F5EC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AB53311E7C332800E2F5EC /* Profile.storyboard */; };
+		C0AB53341E7C334600E2F5EC /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB53331E7C334600E2F5EC /* EditProfileViewController.swift */; };
 		EB99C59A8FEA5B7E9FB2A54F /* Pods_RoketClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED3AD176B6116B1D4593AC8 /* Pods_RoketClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +36,11 @@
 		C035A8DB1E7C00D6008E3CC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C035A8DD1E7C0C90008E3CC8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C035A8DF1E7C0CD9008E3CC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C035A8E11E7C106B008E3CC8 /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		C0AB532B1E7C260400E2F5EC /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		C0AB532F1E7C313A00E2F5EC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C0AB53311E7C332800E2F5EC /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		C0AB53331E7C334600E2F5EC /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		EDBDAC110791067D250699D4 /* Pods-RoketClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoketClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoketClone/Pods-RoketClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,15 +88,44 @@
 			children = (
 				C035A8C91E7BFF72008E3CC8 /* AppDelegate.swift */,
 				C035A8CB1E7BFF72008E3CC8 /* ViewController.swift */,
-				C035A8DD1E7C0C90008E3CC8 /* LoginViewController.swift */,
-				C035A8DF1E7C0CD9008E3CC8 /* RegisterViewController.swift */,
-				C035A8CD1E7BFF72008E3CC8 /* Main.storyboard */,
+				C0AB532E1E7C304E00E2F5EC /* Authentication */,
+				C0AB532D1E7C260F00E2F5EC /* HomePage */,
+				C0AB53351E7C334D00E2F5EC /* Profile */,
 				C035A8D01E7BFF72008E3CC8 /* Assets.xcassets */,
 				C035A8D21E7BFF72008E3CC8 /* LaunchScreen.storyboard */,
 				C035A8D51E7BFF72008E3CC8 /* Info.plist */,
 				C035A8DB1E7C00D6008E3CC8 /* GoogleService-Info.plist */,
 			);
 			path = RoketClone;
+			sourceTree = "<group>";
+		};
+		C0AB532D1E7C260F00E2F5EC /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				C035A8E11E7C106B008E3CC8 /* MainPage.storyboard */,
+				C0AB532B1E7C260400E2F5EC /* HomePageViewController.swift */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		C0AB532E1E7C304E00E2F5EC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C035A8DD1E7C0C90008E3CC8 /* LoginViewController.swift */,
+				C035A8DF1E7C0CD9008E3CC8 /* RegisterViewController.swift */,
+				C035A8CD1E7BFF72008E3CC8 /* Main.storyboard */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		C0AB53351E7C334D00E2F5EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C0AB53311E7C332800E2F5EC /* Profile.storyboard */,
+				C0AB532F1E7C313A00E2F5EC /* ProfileViewController.swift */,
+				C0AB53331E7C334600E2F5EC /* EditProfileViewController.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		E2B79403AC790EF26CA53E61 /* Frameworks */ = {
@@ -160,8 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AB53321E7C332800E2F5EC /* Profile.storyboard in Resources */,
 				C035A8D41E7BFF72008E3CC8 /* LaunchScreen.storyboard in Resources */,
 				C035A8DC1E7C00D6008E3CC8 /* GoogleService-Info.plist in Resources */,
+				C035A8E21E7C106B008E3CC8 /* MainPage.storyboard in Resources */,
 				C035A8D11E7BFF72008E3CC8 /* Assets.xcassets in Resources */,
 				C035A8CF1E7BFF72008E3CC8 /* Main.storyboard in Resources */,
 			);
@@ -222,10 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AB53301E7C313A00E2F5EC /* ProfileViewController.swift in Sources */,
 				C035A8DE1E7C0C90008E3CC8 /* LoginViewController.swift in Sources */,
 				C035A8CC1E7BFF72008E3CC8 /* ViewController.swift in Sources */,
 				C035A8CA1E7BFF72008E3CC8 /* AppDelegate.swift in Sources */,
+				C0AB532C1E7C260400E2F5EC /* HomePageViewController.swift in Sources */,
 				C035A8E01E7C0CD9008E3CC8 /* RegisterViewController.swift in Sources */,
+				C0AB53341E7C334600E2F5EC /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
