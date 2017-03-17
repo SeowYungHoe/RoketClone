@@ -262,7 +262,7 @@
 				DEVELOPMENT_TEAM = N77YP5N6T6;
 				INFOPLIST_FILE = RoketClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazy.RoketClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CrazyFire.RoketClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +275,7 @@
 				DEVELOPMENT_TEAM = N77YP5N6T6;
 				INFOPLIST_FILE = RoketClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazy.RoketClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CrazyFire.RoketClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
