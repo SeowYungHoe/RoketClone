@@ -1,0 +1,6 @@
+framework module Pods_RoketClone {
+  umbrella header "Pods-RoketClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
