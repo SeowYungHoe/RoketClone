@@ -8,9 +8,12 @@
 
 import UIKit
 import Firebase
+import HealthKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    
 
     var window: UIWindow?
 

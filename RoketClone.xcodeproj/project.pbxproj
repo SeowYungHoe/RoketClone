@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C005FA7F1E7C4EF00048B204 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005FA7E1E7C4EF00048B204 /* UserProfile.swift */; };
+		C005FA821E7D3C3E0048B204 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C005FA811E7D3C3E0048B204 /* HealthKit.framework */; };
+		C005FA841E7D3EE80048B204 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005FA831E7D3EE80048B204 /* HistoryViewController.swift */; };
 		C035A8CA1E7BFF72008E3CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035A8C91E7BFF72008E3CC8 /* AppDelegate.swift */; };
 		C035A8CC1E7BFF72008E3CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035A8CB1E7BFF72008E3CC8 /* ViewController.swift */; };
 		C035A8CF1E7BFF72008E3CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C035A8CD1E7BFF72008E3CC8 /* Main.storyboard */; };
@@ -16,6 +19,11 @@
 		C035A8DE1E7C0C90008E3CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035A8DD1E7C0C90008E3CC8 /* LoginViewController.swift */; };
 		C035A8E01E7C0CD9008E3CC8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035A8DF1E7C0CD9008E3CC8 /* RegisterViewController.swift */; };
 		C035A8E21E7C106B008E3CC8 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C035A8E11E7C106B008E3CC8 /* MainPage.storyboard */; };
+		C0721CFD1E7D8880002874ED /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0721CFC1E7D8880002874ED /* Friend.storyboard */; };
+		C0721CFF1E7D888E002874ED /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0721CFE1E7D888E002874ED /* FriendListViewController.swift */; };
+		C0721D011E7D889A002874ED /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0721D001E7D889A002874ED /* ChallengeViewController.swift */; };
+		C0721D041E7D9D4F002874ED /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0721D031E7D9D4F002874ED /* FriendCell.swift */; };
+		C0721D061E7D9FBB002874ED /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0721D051E7D9FBB002874ED /* Users.swift */; };
 		C0AB532C1E7C260400E2F5EC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB532B1E7C260400E2F5EC /* HomePageViewController.swift */; };
 		C0AB53301E7C313A00E2F5EC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB532F1E7C313A00E2F5EC /* ProfileViewController.swift */; };
 		C0AB53321E7C332800E2F5EC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AB53311E7C332800E2F5EC /* Profile.storyboard */; };
@@ -26,6 +34,10 @@
 /* Begin PBXFileReference section */
 		4ED3AD176B6116B1D4593AC8 /* Pods_RoketClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoketClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D540625584F65D5403FAB8 /* Pods-RoketClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoketClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoketClone/Pods-RoketClone.debug.xcconfig"; sourceTree = "<group>"; };
+		C005FA7E1E7C4EF00048B204 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		C005FA801E7D3C3E0048B204 /* RoketClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoketClone.entitlements; sourceTree = "<group>"; };
+		C005FA811E7D3C3E0048B204 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C005FA831E7D3EE80048B204 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		C035A8C61E7BFF72008E3CC8 /* RoketClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoketClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C035A8C91E7BFF72008E3CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C035A8CB1E7BFF72008E3CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +49,11 @@
 		C035A8DD1E7C0C90008E3CC8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C035A8DF1E7C0CD9008E3CC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C035A8E11E7C106B008E3CC8 /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		C0721CFC1E7D8880002874ED /* Friend.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
+		C0721CFE1E7D888E002874ED /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		C0721D001E7D889A002874ED /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		C0721D031E7D9D4F002874ED /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		C0721D051E7D9FBB002874ED /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		C0AB532B1E7C260400E2F5EC /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		C0AB532F1E7C313A00E2F5EC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C0AB53311E7C332800E2F5EC /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
@@ -50,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB99C59A8FEA5B7E9FB2A54F /* Pods_RoketClone.framework in Frameworks */,
+				C005FA821E7D3C3E0048B204 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,10 +104,12 @@
 		C035A8C81E7BFF72008E3CC8 /* RoketClone */ = {
 			isa = PBXGroup;
 			children = (
+				C005FA801E7D3C3E0048B204 /* RoketClone.entitlements */,
 				C035A8C91E7BFF72008E3CC8 /* AppDelegate.swift */,
 				C035A8CB1E7BFF72008E3CC8 /* ViewController.swift */,
 				C0AB532E1E7C304E00E2F5EC /* Authentication */,
 				C0AB532D1E7C260F00E2F5EC /* HomePage */,
+				C0721D021E7D88A1002874ED /* Friends */,
 				C0AB53351E7C334D00E2F5EC /* Profile */,
 				C035A8D01E7BFF72008E3CC8 /* Assets.xcassets */,
 				C035A8D21E7BFF72008E3CC8 /* LaunchScreen.storyboard */,
@@ -99,11 +119,24 @@
 			path = RoketClone;
 			sourceTree = "<group>";
 		};
+		C0721D021E7D88A1002874ED /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				C0721CFC1E7D8880002874ED /* Friend.storyboard */,
+				C0721D001E7D889A002874ED /* ChallengeViewController.swift */,
+				C0721CFE1E7D888E002874ED /* FriendListViewController.swift */,
+				C0721D051E7D9FBB002874ED /* Users.swift */,
+				C0721D031E7D9D4F002874ED /* FriendCell.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
 		C0AB532D1E7C260F00E2F5EC /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
 				C035A8E11E7C106B008E3CC8 /* MainPage.storyboard */,
 				C0AB532B1E7C260400E2F5EC /* HomePageViewController.swift */,
+				C005FA831E7D3EE80048B204 /* HistoryViewController.swift */,
 			);
 			name = HomePage;
 			sourceTree = "<group>";
@@ -123,6 +156,7 @@
 			children = (
 				C0AB53311E7C332800E2F5EC /* Profile.storyboard */,
 				C0AB532F1E7C313A00E2F5EC /* ProfileViewController.swift */,
+				C005FA7E1E7C4EF00048B204 /* UserProfile.swift */,
 				C0AB53331E7C334600E2F5EC /* EditProfileViewController.swift */,
 			);
 			name = Profile;
@@ -131,6 +165,7 @@
 		E2B79403AC790EF26CA53E61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C005FA811E7D3C3E0048B204 /* HealthKit.framework */,
 				4ED3AD176B6116B1D4593AC8 /* Pods_RoketClone.framework */,
 			);
 			name = Frameworks;
@@ -173,6 +208,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N77YP5N6T6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -202,6 +242,7 @@
 				C0AB53321E7C332800E2F5EC /* Profile.storyboard in Resources */,
 				C035A8D41E7BFF72008E3CC8 /* LaunchScreen.storyboard in Resources */,
 				C035A8DC1E7C00D6008E3CC8 /* GoogleService-Info.plist in Resources */,
+				C0721CFD1E7D8880002874ED /* Friend.storyboard in Resources */,
 				C035A8E21E7C106B008E3CC8 /* MainPage.storyboard in Resources */,
 				C035A8D11E7BFF72008E3CC8 /* Assets.xcassets in Resources */,
 				C035A8CF1E7BFF72008E3CC8 /* Main.storyboard in Resources */,
@@ -263,11 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0721D011E7D889A002874ED /* ChallengeViewController.swift in Sources */,
+				C0721CFF1E7D888E002874ED /* FriendListViewController.swift in Sources */,
 				C0AB53301E7C313A00E2F5EC /* ProfileViewController.swift in Sources */,
 				C035A8DE1E7C0C90008E3CC8 /* LoginViewController.swift in Sources */,
 				C035A8CC1E7BFF72008E3CC8 /* ViewController.swift in Sources */,
 				C035A8CA1E7BFF72008E3CC8 /* AppDelegate.swift in Sources */,
+				C005FA7F1E7C4EF00048B204 /* UserProfile.swift in Sources */,
+				C0721D041E7D9D4F002874ED /* FriendCell.swift in Sources */,
 				C0AB532C1E7C260400E2F5EC /* HomePageViewController.swift in Sources */,
+				C0721D061E7D9FBB002874ED /* Users.swift in Sources */,
+				C005FA841E7D3EE80048B204 /* HistoryViewController.swift in Sources */,
 				C035A8E01E7C0CD9008E3CC8 /* RegisterViewController.swift in Sources */,
 				C0AB53341E7C334600E2F5EC /* EditProfileViewController.swift in Sources */,
 			);
@@ -391,6 +438,7 @@
 			baseConfigurationReference = B4D540625584F65D5403FAB8 /* Pods-RoketClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoketClone/RoketClone.entitlements;
 				DEVELOPMENT_TEAM = N77YP5N6T6;
 				INFOPLIST_FILE = RoketClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -405,6 +453,7 @@
 			baseConfigurationReference = EDBDAC110791067D250699D4 /* Pods-RoketClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoketClone/RoketClone.entitlements;
 				DEVELOPMENT_TEAM = N77YP5N6T6;
 				INFOPLIST_FILE = RoketClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

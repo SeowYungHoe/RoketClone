@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import Firebase
+
+
 
 class ProfileViewController: UIViewController {
 
-    
+    //---------------------------Outlets------------------
     @IBOutlet weak var backButton: UIBarButtonItem!{
         didSet{
             backButton.action = #selector(backToHomePage)
@@ -24,13 +27,71 @@ class ProfileViewController: UIViewController {
         }
     }
     
+    @IBOutlet weak var profilePicture: UIImageView!
+    @IBOutlet weak var hiThereLabel: UILabel!
+    
+    //----------------------------Constants and Variables----------------------------------
+    var usersInformation: [UserProfile] = []
+    var displayUserProfilePicture = String()
+    var displayUserName = String()
+
+
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        fetchUserInformation()
 
-        // Do any additional setup after loading the view.
     }
 
+    //----------------------------Functions-----------------------
+    
+    func fetchUserInformation () {
+        
+        
+        let ref = FIRDatabase.database().reference()
+        
+        let uid = FIRAuth.auth()?.currentUser?.uid
+        
+        ref.child("user").child(uid!).observeSingleEvent(of: .value, with: { (snapshot) in
+            
+            
+            guard let value = snapshot.value as? NSDictionary else {return}
+            
+            let displayName = value["username"] as? String
+            
+            if let displayPicture = value["profilePicture"] as? String {
+                
+                self.profilePicture.downloadImage(from: displayPicture)
+
+            }
+            
+            
+
+            
+            self.displayUserName = displayName!
+            self.hiThereLabel.text = "Hi There \(self.displayUserName)"
+            print(self.displayUserName)
+
+         
+
+        })
+        
+    }
+    
+        
+
+    
+
+    
+    
+    //---------------------------Navigation-----------------------
     func goEditProfilePage() {
  
         

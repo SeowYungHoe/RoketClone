@@ -56,9 +56,14 @@ class LoginViewController: UIViewController {
             
             
             let storyboard = UIStoryboard(name: "MainPage", bundle: Bundle.main)
-            let controller = storyboard.instantiateViewController(withIdentifier: "MainPageNavi") as? UINavigationController
-
-            self.navigationController?.present(controller!, animated: true, completion: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "HomePageViewController") as! HomePageViewController
+            let navController = UINavigationController(rootViewController: controller)
+            self.present(navController, animated:true, completion: nil)
+            
+//            let storyboard = UIStoryboard(name: "MainPage", bundle: Bundle.main)
+//            let controller = storyboard.instantiateViewController(withIdentifier: "MainPageNavi") as? UINavigationController
+//
+//            self.navigationController?.present(controller!, animated: true, completion: nil)
         
     })
     

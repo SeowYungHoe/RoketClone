@@ -21,61 +21,116 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70z-GE-tpY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NO!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70z-GE-tpY">
                                 <rect key="frame" x="88" y="178" width="198" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oju-jz-0QP">
-                                <rect key="frame" x="166" y="28" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oju-jz-0QP">
+                                <rect key="frame" x="162.5" y="30" width="50" height="30"/>
                                 <state key="normal" title="History"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg7-Wp-sCU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg7-Wp-sCU">
                                 <rect key="frame" x="33" y="626" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lck-eQ-S0Q">
-                                <rect key="frame" x="166" y="626" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kcal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lck-eQ-S0Q">
+                                <rect key="frame" x="166" y="626" width="31" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4I-rA-zxd">
-                                <rect key="frame" x="317" y="626" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4I-rA-zxd">
+                                <rect key="frame" x="317" y="626" width="44" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14Y-rI-z04">
-                                <rect key="frame" x="313" y="28" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14Y-rI-z04">
+                                <rect key="frame" x="296" y="30" width="69" height="30"/>
+                                <state key="normal" title="Challenge"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOm-2l-AFJ">
-                                <rect key="frame" x="16" y="28" width="44" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOm-2l-AFJ">
+                                <rect key="frame" x="10" y="30" width="44" height="30"/>
                                 <state key="normal" title="Profile"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Era-9P-rOu">
+                                <rect key="frame" x="122" y="383" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enable Health Kit"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edV-kv-OuO">
+                                <rect key="frame" x="160" y="388" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZOm-2l-AFJ" firstAttribute="leading" secondItem="eRh-Lu-xQM" secondAttribute="leading" constant="10" id="6zl-mT-mos"/>
+                            <constraint firstItem="oju-jz-0QP" firstAttribute="centerX" secondItem="eRh-Lu-xQM" secondAttribute="centerX" id="E9Z-xy-xNy"/>
+                            <constraint firstItem="ZOm-2l-AFJ" firstAttribute="top" secondItem="n5b-6K-wXd" secondAttribute="bottom" constant="10" id="JgO-4f-DR9"/>
+                            <constraint firstAttribute="trailing" secondItem="14Y-rI-z04" secondAttribute="trailing" constant="10" id="Qwd-3g-NJ6"/>
+                            <constraint firstItem="14Y-rI-z04" firstAttribute="top" secondItem="n5b-6K-wXd" secondAttribute="bottom" constant="10" id="TOO-Hj-olL"/>
+                            <constraint firstItem="oju-jz-0QP" firstAttribute="top" secondItem="n5b-6K-wXd" secondAttribute="bottom" constant="10" id="zHh-Ap-KbJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jJn-ge-GS1"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="challengeButtonPressed" destination="14Y-rI-z04" id="N08-Pi-G9N"/>
+                        <outlet property="enableHealthKitButton" destination="Era-9P-rOu" id="Jcy-kg-Qve"/>
+                        <outlet property="healthKitOutlet" destination="Era-9P-rOu" id="jCU-jw-QjZ"/>
+                        <outlet property="historyButton" destination="oju-jz-0QP" id="ZUk-gV-8oe"/>
+                        <outlet property="messageLabel" destination="edV-kv-OuO" id="gzX-Y6-Eg1"/>
                         <outlet property="profileButton" destination="ZOm-2l-AFJ" id="3CW-ft-RJi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X77-TZ-laI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2645.5999999999999" y="39.130434782608695"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="R4N-ya-8s3">
+            <objects>
+                <viewController storyboardIdentifier="HistoryViewController" id="Ezc-bA-zsB" customClass="HistoryViewController" customModule="RoketClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qbq-gj-MqP"/>
+                        <viewControllerLayoutGuide type="bottom" id="4PN-xV-usN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nI4-HN-Gbc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2eb-Ki-DNH" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="10" y="40" width="355" height="607"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2eb-Ki-DNH" firstAttribute="top" secondItem="Qbq-gj-MqP" secondAttribute="bottom" constant="20" id="0qZ-qp-mHt"/>
+                            <constraint firstItem="2eb-Ki-DNH" firstAttribute="leading" secondItem="nI4-HN-Gbc" secondAttribute="leading" constant="10" id="HAq-JW-vnN"/>
+                            <constraint firstItem="4PN-xV-usN" firstAttribute="top" secondItem="2eb-Ki-DNH" secondAttribute="bottom" constant="20" id="Z2E-qf-SKO"/>
+                            <constraint firstAttribute="trailing" secondItem="2eb-Ki-DNH" secondAttribute="trailing" constant="10" id="bWO-3P-3VA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barChartView" destination="2eb-Ki-DNH" id="Dkg-87-V5B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S6t-ye-Uef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3432.8000000000002" y="38.23088455772114"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6FJ-Al-P4l">
