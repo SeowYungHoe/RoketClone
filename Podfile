@@ -12,6 +12,6 @@ target 'RoketClone' do
  pod 'Firebase/Database' 
  pod 'Firebase/Storage'
  pod 'Alamofire'
-pod 'Charts'
+ pod 'Charts'
 
 end
